@@ -10,4 +10,4 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: newrelic/repolinter-action@cd9cd19 #v1.6.0
+    - uses: twitter-forks/repolinter-action@main
