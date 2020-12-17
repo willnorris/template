@@ -10,4 +10,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: twitter-forks/repolinter-action@main
+    - uses: twitter-forks/repolinter-action@twitter
+      with:
+        config_url: https://raw.githubusercontent.com/twitter/.github/master/repolinter-rulesets/default.yaml
